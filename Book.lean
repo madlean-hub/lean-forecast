@@ -1,20 +1,17 @@
 import VersoManual
-import Book.Introduction
-import Book.NextSteps
+import Book.v4_31_0
 
 open Verso.Genre Manual
 open Verso.Genre.Manual.InlineLean
 
 set_option pp.rawOnError true
 
-#doc (Manual) "My Book" =>
+#doc (Manual) "Lean Forecast" =>
 
 %%%
-authors := ["Author"]
+authors := ["Madlean (https://madlean-hub.web.app/)"]
 %%%
 
-This is a short book written with Verso's Manual genre.
+All the new features and improvements in the latest versions of Lean.
 
-{include 1 Book.Introduction}
-
-{include 1 Book.NextSteps}
+{include 1 Book.v4_31_0}
