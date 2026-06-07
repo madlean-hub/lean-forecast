@@ -16,4 +16,5 @@ New functionalities coming in Lean 4.31.0
 ```
 ```leanOutput vers
 Lean 4.31.0-rc1
+Target: x86_64-unknown-linux-gnu
 ```
